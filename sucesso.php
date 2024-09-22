@@ -13,7 +13,7 @@
         <img src="assets/logo.png" alt="Imagem de login" class="capa" style="width: 60px;">
     </nav>
     <main>
-        <h1>Manipulação de Imagens com PHP</h1>
+        <h1>Interaja com as imagens!</h1>
         <!-- Botões para acionar as funções -->
         <form method="POST">
             <button type="submit" name="acao" value="exibir">Exibir Imagens</button>
