@@ -2,8 +2,8 @@
 // Verifica se o formulário foi enviado
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Substitua com as credenciais de login corretas e com a senha criptografada usando MD5
-    $usuarioCorreto = 'fany@gmail.com';
-    $senhaCorreta = md5('126'); // senha em MD5
+    $usuarioCorreto = 'exemplo@gmail.com';
+    $senhaCorreta = md5('123'); // senha em MD5
 
     // Obtém os valores do formulário
     $email = $_POST['e-mail'];
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <div class="container">
         <div class="logo">
-            <img src="assets/LGCAT.png" alt="Imagem de login" class="capa">
+            <img src="assets/logo.png" alt="Imagem de login" class="capa" style="width: 200px;">
         </div>
         <div class="form-container">
             <h1>Faça o seu login</h1>
